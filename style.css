@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  color: #222;
+  background-image: url('R-logo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+  opacity: 1;
+}
+
+.container {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2980b9;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.2rem;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+th.price, td.price {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  th, td {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
+  }
+}

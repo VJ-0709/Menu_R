@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choose Language / Изберете јазик</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f2f2f2;
+        text-align: center;
+      }
+      h1 {
+        margin-bottom: 40px;
+      }
+      .lang-buttons {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+      }
+      .button {
+        padding: 15px 30px;
+        background-color: #333;
+        color: white;
+        border-radius: 8px;
+        font-size: 18px;
+        transition: background-color 0.3s;
+      }
+      .button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Изберете јазик / Choose your language</h1>
+    <div class="lang-buttons">
+      <a href="menu-mk.html" class="button">
+        <img
+          src="flags/mk.png"
+          alt="MK"
+          style="width: 24px; vertical-align: middle; margin-right: 8px"
+        />
+        Македонски
+      </a>
+      <a href="menu-en.html" class="button">
+        <img
+          src="flags/gb.png"
+          alt="EN"
+          style="width: 24px; vertical-align: middle; margin-right: 8px"
+        />
+        English
+      </a>
+    </div>
+  </body>
+</html>
